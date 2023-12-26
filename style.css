@@ -1,3 +1,9 @@
+/* colors */
+/* 
+rgb(113,132,102) 
+rgb(115,115,115)
+*/
+
 /* GENERAL STYLING */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
@@ -47,16 +53,23 @@ nav {
 }
 
 a {
-  color: black;
+  /* color: black; */
+  color: rgb(115, 115, 115);
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
+  /* color: grey; */
+  color: rgb(113, 132, 102);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  /* text-decoration-color: rgb(181, 181, 181); */
+  text-decoration-color: rgb(115, 115, 115);
+}
+
+.main-logo {
+  height: 7rem;
 }
 
 .logo {
@@ -90,7 +103,8 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  /* background-color: black; */
+  background-color: rgb(113, 132, 102);
   transition: all 0.3s ease-in-out;
 }
 
@@ -110,7 +124,8 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  /* color: black; */
+  color: rgb(113, 132, 102);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -196,6 +211,13 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: rgb(113, 132, 102);
+}
+
+.first-arrow {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
 }
 
 #socials-container {
@@ -230,7 +252,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(113, 132, 102) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -240,12 +262,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(113, 132, 102);
   color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(113, 132, 102);
 }
 
 .btn-color-2 {
@@ -298,7 +320,8 @@ section {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  /* border-color: rgb(163, 163, 163); */
+  border-color: rgb(113, 132, 102);
   text-align: center;
 }
 
@@ -320,7 +343,8 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  /* color: rgb(85, 85, 85); */
+  color: rgb(113, 132, 102);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -359,7 +383,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
+  /* border-color: rgb(163, 163, 163); */
+  border-color: rgb(113, 132, 102);
   background: rgb(250, 250, 250);
 }
 
@@ -371,7 +396,7 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: rgb(113, 132, 102);
 }
 
 .project-btn {
@@ -392,8 +417,10 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  /* border: rgb(53, 53, 53) 0.1rem solid; */
+  border: rgb(113, 132, 102) 0.1rem solid;
+  /* border-color: rgb(163, 163, 163); */
+  border-color: rgb(113, 132, 102);
   background: rgb(250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
